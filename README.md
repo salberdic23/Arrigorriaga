@@ -58,4 +58,4 @@ Arrigorriaga App Android aplikazio bat da, **Jetpack Compose** erabiliz eraikita
 
 1. Android Studio ireki eta proiektua klonatu:
    ```bash
-   git clone https://github.com/salberdic23/ArrigorriagaApp.git
+   git clone https://github.com/salberdic23/Arrigorriaga.git
