@@ -4,16 +4,17 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.example.arrigorriaga.ui.theme.ArrigorriagaTheme
-import com.example.arrigorriaga.screens.HomeScreen
 import com.example.arrigorriaga.screens.LoginScreen
+import com.example.arrigorriaga.screens.HomeScreen
+import com.example.arrigorriaga.screens.ErreserbaScreen
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContent {
             ArrigorriagaTheme {
-                HomeScreen()
-
+                ErreserbaScreen()
             }
         }
     }
