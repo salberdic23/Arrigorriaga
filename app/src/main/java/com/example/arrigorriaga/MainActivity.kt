@@ -7,6 +7,7 @@ import com.example.arrigorriaga.ui.theme.ArrigorriagaTheme
 import com.example.arrigorriaga.screens.LoginScreen
 import com.example.arrigorriaga.screens.HomeScreen
 import com.example.arrigorriaga.screens.ErreserbaScreen
+import com.example.arrigorriaga.screens.ZerbitzuakScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +15,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             ArrigorriagaTheme {
-                ErreserbaScreen()
+                ZerbitzuakScreen()
             }
         }
     }
