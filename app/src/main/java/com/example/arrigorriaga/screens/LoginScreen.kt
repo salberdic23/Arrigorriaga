@@ -40,7 +40,7 @@ fun LoginScreen() {
             Image(
                 painter = painterResource(id = R.drawable.ic_camping_logo),
                 contentDescription = "Logo Camping",
-                modifier = Modifier.size(180.dp),
+                modifier = Modifier.size(420.dp),
                 contentScale = ContentScale.Fit
             )
         }
@@ -48,7 +48,7 @@ fun LoginScreen() {
         Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(top = 16.dp),
+                .offset(y = (-40).dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             var email by remember { mutableStateOf("") }
